@@ -2,20 +2,20 @@
   "@context": [
     "https://www.w3.org/ns/did/v1",
     {
-      "@base": "did:web:did.actor:mike",
+      "@base": "did:web:credivera.net:mike",
       "rating": "https://schema.org/Rating",
       "publicAccess": "https://schema.org/publicAccess",
       "additionalType": "https://schema.org/additionalType"
     }
   ],
-  "id": "did:web:did.actor:mike",
+  "id": "did:web:credivera.net:mike",
   "rating": 4.5,
   "publicAccess": true,
   "additionalType": null,
   "verificationMethod": [
     {
       "id": "#g1",
-      "controller": "did:web:did.actor:mike",
+      "controller": "did:web:credivera.net:mike",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "EC",
@@ -25,7 +25,7 @@
     },
     {
       "id": "#g2",
-      "controller": "did:web:did.actor:mike",
+      "controller": "did:web:credivera.net:mike",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "EC",
@@ -34,6 +34,6 @@
       }
     }
   ],
-  "authentication": ["did:web:did.actor:mike#g1", "did:web:did.actor:mike#g2"],
-  "assertionMethod": ["did:web:did.actor:mike#g1", "did:web:did.actor:mike#g2"]
+  "authentication": ["did:web:credivera.net:mike#g1", "did:web:credivera.net:mike#g2"],
+  "assertionMethod": ["did:web:credivera.net:mike#g1", "did:web:credivera.net:mike#g2"]
 }

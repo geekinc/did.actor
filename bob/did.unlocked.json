@@ -2,10 +2,10 @@
   "@context": [
     "https://www.w3.org/ns/did/v1",
     {
-      "@base": "did:web:did.actor:bob"
+      "@base": "did:web:credivera.net:bob"
     }
   ],
-  "id": "did:web:did.actor:bob",
+  "id": "did:web:credivera.net:bob",
   "publicKey": [
     {
       "id": "#z6MkkQBvgvqb6zGvS4cydworpUaRDzpszSFixq49ahbDeUTG",

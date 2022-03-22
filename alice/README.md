@@ -1,6 +1,6 @@
-#### [View on GitHub](https://github.com/w3c-ccg/did.actor/tree/master/alice)
+#### [View on GitHub](https://github.com/w3c-ccg/credivera.net/tree/master/alice)
 
-# Alice, did:web:did.actor:alice
+# Alice, did:web:credivera.net:alice
 
 <img src="./profile.jpg" alt="profile" width="500"/>
 

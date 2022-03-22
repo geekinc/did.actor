@@ -1,7 +1,7 @@
 {
-  "id": "did:web:did.actor:supply-chain:customs:david#primary-signing-key",
+  "id": "did:web:credivera.net:supply-chain:customs:david#primary-signing-key",
   "type": "JsonWebKey2020",
-  "controller": "did:web:did.actor:supply-chain:customs:david",
+  "controller": "did:web:credivera.net:supply-chain:customs:david",
   "publicKeyJwk": {
     "crv": "Ed25519",
     "kty": "OKP",

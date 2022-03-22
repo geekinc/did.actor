@@ -1,8 +1,8 @@
-#### [View on GitHub](https://github.com/w3c-ccg/did.actor/tree/master/healthcare/doctor/robert/)
+#### [View on GitHub](https://github.com/w3c-ccg/credivera.net/tree/master/healthcare/doctor/robert/)
 
 # Dr. Robert
 
-[`did:web:did.actor:healthcare:doctor:robert`](https://did-web.web.app/api/v1/identifiers/did:web:did.actor:healthcare:doctor:robert)
+[`did:web:credivera.net:healthcare:doctor:robert`](https://did-web.web.app/api/v1/identifiers/did:web:credivera.net:healthcare:doctor:robert)
 
 Robert is a doctor.
 

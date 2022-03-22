@@ -1,7 +1,7 @@
 {
-  "id": "did:web:did.actor:supply-chain:broker:malcolm#primary-signing-key",
+  "id": "did:web:credivera.net:supply-chain:broker:malcolm#primary-signing-key",
   "type": "JsonWebKey2020",
-  "controller": "did:web:did.actor:supply-chain:broker:malcolm",
+  "controller": "did:web:credivera.net:supply-chain:broker:malcolm",
   "publicKeyJwk": {
     "crv": "Ed25519",
     "kty": "OKP",

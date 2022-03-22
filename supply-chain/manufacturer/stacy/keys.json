@@ -1,7 +1,7 @@
 {
-  "id": "did:web:did.actor:supply-chain:manufacturer:stacy#primary-signing-key",
+  "id": "did:web:credivera.net:supply-chain:manufacturer:stacy#primary-signing-key",
   "type": "JsonWebKey2020",
-  "controller": "did:web:did.actor:supply-chain:manufacturer:stacy",
+  "controller": "did:web:credivera.net:supply-chain:manufacturer:stacy",
   "publicKeyJwk": {
     "crv": "Ed25519",
     "kty": "OKP",

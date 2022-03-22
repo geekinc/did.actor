@@ -15,7 +15,7 @@ const wrappedDocumentLoader = async (url) => {
     };
   }
 
-  if (url.startsWith("did:web:did.actor:alice")) {
+  if (url.startsWith("did:web:credivera.net:alice")) {
     return {
       contextUrl: null,
       documentUrl: url,

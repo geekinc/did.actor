@@ -1,6 +1,6 @@
-#### [View on GitHub](https://github.com/w3c-ccg/did.actor/tree/master/carol)
+#### [View on GitHub](https://github.com/w3c-ccg/credivera.net/tree/master/carol)
 
-# Carol, did:web:did.actor:carol
+# Carol, did:web:credivera.net:carol
 
 <img src="./profile.jpg" alt="profile" width="500"/>
 

@@ -1,6 +1,6 @@
-#### [View on GitHub](https://github.com/w3c-ccg/did.actor/tree/master/mike)
+#### [View on GitHub](https://github.com/w3c-ccg/credivera.net/tree/master/mike)
 
-# Mike, did:web:did.actor:mike
+# Mike, did:web:credivera.net:mike
 
 <img src="./profile.jpg" alt="profile" width="500"/>
 

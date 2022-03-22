@@ -1,4 +1,4 @@
-#### [View on GitHub](https://github.com/w3c-ccg/did.actor)
+#### [View on GitHub](https://github.com/w3c-ccg/credivera.net)
 
 User Experience and Development Personas for Decentralized Identifiers and Verifiable Credentials.
 
@@ -18,17 +18,17 @@ See [healthcare](./healthcare)
 
 ## Generic
 
-### [Alice, did:web:did.actor:alice](./alice)
+### [Alice, did:web:credivera.net:alice](./alice)
 
-Example of a [revocation list maintained by alice](https://did.actor/alice/credentials/status/3.json)
+Example of a [revocation list maintained by alice](https://credivera.net/alice/credentials/status/3.json)
 
-### [Bob, did:web:did.actor:bob](./bob)
+### [Bob, did:web:credivera.net:bob](./bob)
 
-Example of a [credential issued by alice to bob](https://did.actor/bob/credentials/3732.json)
+Example of a [credential issued by alice to bob](https://credivera.net/bob/credentials/3732.json)
 
-### [Carol, did:web:did.actor:carol](./carol)
+### [Carol, did:web:credivera.net:carol](./carol)
 
-### [Mike, did:web:did.actor:mike](./mike)
+### [Mike, did:web:credivera.net:mike](./mike)
 
 #### Motivation
 

@@ -24,19 +24,19 @@ const credential = {
     "https://www.w3.org/2018/credentials/examples/v1",
     "https://w3id.org/vc-revocation-list-2020/v1",
   ],
-  id: "https://did.actor/bob/credentials/3732.json",
+  id: "https://credivera.net/bob/credentials/3732.json",
   type: ["VerifiableCredential", "UniversityDegreeCredential"],
-  issuer: "did:web:did.actor:alice",
+  issuer: "did:web:credivera.net:alice",
   issuanceDate: "2020-03-10T04:24:12.164Z",
   credentialStatus: {
-    id: "https://did.actor/alice/credentials/status/3.json#94567",
+    id: "https://credivera.net/alice/credentials/status/3.json#94567",
     type: "RevocationList2020Status",
     revocationListIndex: "94567",
     revocationListCredential:
-      "https://did.actor/alice/credentials/status/3.json",
+      "https://credivera.net/alice/credentials/status/3.json",
   },
   credentialSubject: {
-    id: "did:web:did.actor:bob",
+    id: "did:web:credivera.net:bob",
     degree: {
       type: "BachelorDegree",
       name: "Bachelor of Science and Arts",
@@ -68,13 +68,13 @@ describe("vc-js sanity", () => {
     expect(verification.verified).toBe(true);
   });
   it("sign and verify", async () => {
-    const id = "https://did.actor/alice/credentials/status/3.json";
+    const id = "https://credivera.net/alice/credentials/status/3.json";
     const list = await rl.createList({ length: 100000 });
     const encodedList = await list.encode();
     const rlCredential = {
       "@context": [CONTEXTS.VC_V1, CONTEXTS.RL_V1],
       id,
-      issuer: "did:web:did.actor:alice",
+      issuer: "did:web:credivera.net:alice",
       issuanceDate: "2020-03-10T04:24:12.164Z",
       type: ["VerifiableCredential", "RevocationList2020Credential"],
       credentialSubject: {
