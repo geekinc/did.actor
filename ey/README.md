@@ -1,4 +1,4 @@
-# did:web:did.actor:ey
+# did:web:credivera.net:ey
 
 ## [DID Document](./did.json)
 
