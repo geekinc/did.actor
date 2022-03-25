@@ -1,0 +1,18 @@
+{
+  "z3tEEriwAkkzcW3nr4YFGsayznvStYpCAEcQzZPLYCVfrrfBzsbfvH1SxT4GtaQR7JNFky": {
+    "id": "#z3tEEriwAkkzcW3nr4YFGsayznvStYpCAEcQzZPLYCVfrrfBzsbfvH1SxT4GtaQR7JNFky",
+    "controller": "did:web:credivera.net:973b55d3-3c99-49ed-9aad-98aeb067ee24",
+    "type": "Ed25519VerificationKey2018",
+    "publicKeyJwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "XpKUU1vo6vyycNW2NngYSBCEchZFwKFSKAFZrc_0kBM"
+    },
+    "privateKeyJwk": {
+      "kty":"OKP",
+      "crv":"Ed25519",
+      "x":"XpKUU1vo6vyycNW2NngYSBCEchZFwKFSKAFZrc_0kBM",
+      "d":"vRnnPhjAfnlZuLu1rYpbg0kQccQK4J0vsAFJYxy4z3Y"
+    }
+  }
+}
