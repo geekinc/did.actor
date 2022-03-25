@@ -12,7 +12,7 @@
   "id": "did:web:credivera.net:973b55d3-3c99-49ed-9aad-98aeb067ee24",
   "verificationMethod": [
     {
-      "id": "did:web:credivera.net:973b55d3-3c99-49ed-9aad-98aeb067ee24#z6MkkpS1DqBDJWhkJyGyeQ6VgZfWquiHdMnpBPa8dG44gFF8",
+      "id": "#z6MkkpS1DqBDJWhkJyGyeQ6VgZfWquiHdMnpBPa8dG44gFF8",
       "type": "Ed25519VerificationKey2018",
       "controller": "did:web:credivera.net:973b55d3-3c99-49ed-9aad-98aeb067ee24",
       "publicKeyJwk": {
