@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://w3id.org/traceability/#undefinedTerm",
+    "id": "@id",
+    "type": "@type",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "identifier": "https://schema.org/identifier",
+    "image": {
+      "@id": "https://schema.org/image",
+      "@type": "@id"
+    },
+    "relatedLink": {
+      "@id": "https://w3id.org/traceability#LinkRole"
+    },
+    "ContactPoint": {
+      "@id": "https://schema.org/ContactPoint",
+      "@context": {
+        "name": {
+          "@id": "https://schema.org/name"
+        },
+        "address": {
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "email": {
+          "@id": "https://schema.org/email"
+        },
+        "phoneNumber": {
+          "@id": "https://schema.org/telephone"
+        }
+      }
+    },
+    "Organization": {
+      "@id": "https://schema.org/Organization",
+      "@context": {
+        "name": {
+          "@id": "https://schema.org/name"
+        },
+        "leiCode": {
+          "@id": "https://schema.org/leiCode"
+        },
+        "url": {
+          "@id": "https://schema.org/url"
+        },
+        "description": {
+          "@id": "https://schema.org/description"
+        },
+        "globalLocationNumber": {
+          "@id": "https://schema.org/globalLocationNumber"
+        },
+        "address": {
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "email": {
+          "@id": "https://schema.org/email"
+        },
+        "phoneNumber": {
+          "@id": "https://schema.org/telephone"
+        },
+        "faxNumber": {
+          "@id": "https://schema.org/faxNumber"
+        },
+        "brand": {
+          "@id": "https://schema.org/Brand"
+        },
+        "contactPoint": {
+          "@id": "https://schema.org/ContactPoint"
+        },
+        "taxId": {
+          "@id": "https://schema.org/taxID"
+        },
+        "iataCarrierCode": {
+          "@id": "https://onerecord.iata.org/cargo/Company#airlineCode"
+        }
+      }
+    },
+    "Person": {
+      "@id": "https://schema.org/Person",
+      "@context": {
+        "firstName": {
+          "@id": "https://schema.org/givenName"
+        },
+        "lastName": {
+          "@id": "https://schema.org/familyName"
+        },
+        "email": {
+          "@id": "https://schema.org/email"
+        },
+        "phoneNumber": {
+          "@id": "https://schema.org/telephone"
+        },
+        "worksFor": {
+          "@id": "https://schema.org/worksFor"
+        },
+        "jobTitle": {
+          "@id": "https://schema.org/jobTitle"
+        },
+        "taxId": {
+          "@id": "https://schema.org/taxID"
+        }
+      }
+    },
+    "BankAccount": {
+      "@id": "https://schema.org/BankAccount"
+    }
+  }
+}
